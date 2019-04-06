@@ -9,6 +9,6 @@ if (global.selected != 0 && mouse_check_button_pressed(mb_right))
 {
 	with(global.selected)
 	{
-		script0(x,y, round(mouse_x/32)*32,round(mouse_y/32)*32)
+		script0(x,y, mouse_x-(mouse_x%32),mouse_y-(mouse_y%32))
 	}
 }
