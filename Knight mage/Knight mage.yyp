@@ -82,7 +82,7 @@
             "Key": "413363fb-1dcc-415e-b7ee-85045a1ccca4",
             "Value": {
                 "id": "3df4c733-5e0a-46ed-9bc4-d4f4db3cd10f",
-                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourcePath": "scripts\\position\\position.yy",
                 "resourceType": "GMScript"
             }
         },
