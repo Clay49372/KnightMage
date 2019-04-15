@@ -21,7 +21,7 @@ mapHieght = room_height/global.GridSize
 
 global.blueteam = 1
 
-global.readteam = 2
+global.redteam = 2
 
 //mmaking grid
 for(i = 0; i < mapWidth; i +=1)
