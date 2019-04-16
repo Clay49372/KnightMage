@@ -127,6 +127,22 @@
             }
         },
         {
+            "Key": "57016a21-7898-4b41-8e5f-dad9033cff1a",
+            "Value": {
+                "id": "a9ac08f9-69df-40ac-868a-d2588879c251",
+                "resourcePath": "sprites\\spr_StaffMage\\spr_StaffMage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69f49696-6886-4a9c-b5cf-31053594a86a",
+            "Value": {
+                "id": "6e60cc87-d924-4e18-b82c-283b1c953ff1",
+                "resourcePath": "sprites\\spr_HeavyKnight\\spr_HeavyKnight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6f652fdb-b267-49df-9e0f-602d0e681a21",
             "Value": {
                 "id": "e168e6e5-2bd1-4d45-8f60-9097787b3127",
@@ -191,6 +207,22 @@
             }
         },
         {
+            "Key": "9ce52696-b923-4d2e-8a39-e7ce933e4195",
+            "Value": {
+                "id": "1a7c6b56-3e9a-4126-ac56-9a8be26531ef",
+                "resourcePath": "sprites\\spr_HorseKnight\\spr_HorseKnight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a0ed1c34-e805-4c7a-921d-fce27c07dcb1",
+            "Value": {
+                "id": "6b7e944d-6aee-4e77-a5cd-0c1fba9646c7",
+                "resourcePath": "sprites\\spr_AxeKnight\\spr_AxeKnight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a6c3a243-331b-4f92-b222-ac9730f09827",
             "Value": {
                 "id": "4a7aa550-63dd-4f78-95cc-7d86b51c3424",
@@ -244,6 +276,14 @@
                 "id": "b6bc4940-ded2-4587-bfbb-27dda9d055ae",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c1b2292c-121d-45b0-8782-8597c65af45e",
+            "Value": {
+                "id": "8bbea60a-5e20-4c5d-882f-2509ec2c6a58",
+                "resourcePath": "sprites\\spr_LightMage\\spr_LightMage.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
