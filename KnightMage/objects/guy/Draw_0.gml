@@ -18,7 +18,7 @@ if(cursor_obj.hoverNode != noone )
 			switch(attack)
 			{
 				
-			case "ranged":
+			case "range":
 			draw_line_width_color(x + 16, y + 16, tempNode.x +16, tempNode.y + 16, 4, c_purple,c_purple)
 			break
 			
