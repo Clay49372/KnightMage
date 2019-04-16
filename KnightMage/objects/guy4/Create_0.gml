@@ -8,3 +8,7 @@ bonus = 4
 initiative = 0
 initiativeRoll = 0
 hp = 2
+maxhp = 3
+damagebonus = 1
+attack = "range"
+AttackRange = 15 *global.GridSize

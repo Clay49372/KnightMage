@@ -34,9 +34,22 @@ switch(state)
 		
 		currentPerson = ds_list_find_value(turn, turncount)
 		currentPerson.actions = 2
+		currentPerson.act = true
 		
 		cursor_obj.selectedPerson = currentPerson
 		PathFinding(global.map[currentPerson.gridx,currentPerson.gridy],currentPerson.move, currentPerson.actions)
+		
+		switch(currentPerson.attack)
+		{
+			
+			case "ranged":
+				rangedattack(currentPerson)
+				break
+		
+			break
+		
+		}
+		
 	}
 	
 	

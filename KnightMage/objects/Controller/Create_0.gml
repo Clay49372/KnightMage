@@ -91,9 +91,9 @@ with(instance_create_layer(5 * global.GridSize, 5* global.GridSize,"Instances",g
 	name = "guy1"
 	global.map[gridx,gridy].occupant = id
 }
-with(instance_create_layer(5 * global.GridSize, 8* global.GridSize,"Instances",guy2))
+with(instance_create_layer(20 * global.GridSize, 8* global.GridSize,"Instances",guy2))
 {
-	gridx = 5
+	gridx = 20
 	gridy = 8
 	name = "guy2"
 	global.map[gridx,gridy].occupant = id

@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "b979d578-279a-4dfa-930e-ad61050af56b",
+            "Value": {
+                "id": "47597642-9a15-4fa3-b591-d8f1d5be5eb5",
+                "resourcePath": "scripts\\rangedattack\\rangedattack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bb550cfa-943a-49ab-aaa0-db447aad5c66",
             "Value": {
                 "id": "b6bc4940-ded2-4587-bfbb-27dda9d055ae",
@@ -346,7 +354,8 @@
     "script_order": [
         "4a700a75-a634-45b1-b00b-8247090d7e17",
         "2c13b74e-3355-4c1e-a10b-feccfbd34e4b",
-        "a6c3a243-331b-4f92-b222-ac9730f09827"
+        "a6c3a243-331b-4f92-b222-ac9730f09827",
+        "b979d578-279a-4dfa-930e-ad61050af56b"
     ],
     "tutorial": ""
 }
