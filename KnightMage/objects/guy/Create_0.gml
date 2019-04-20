@@ -13,7 +13,8 @@ attacktime = 0
 damagebonus = 1
 attack = "melee"
 damage = 1
-name = "error"
+name = "none"
+defense = 2
 
 //location
 state = "idle"
@@ -24,12 +25,13 @@ gridy = 0
 
 //actions
 actions =2
-act = false
+ableact = false
 
 //pathfinding stuff
 path = path_add();
 path_set_kind(path, 2)
 path_set_closed(path,false)
+
 
 moveSpeed = 8
 

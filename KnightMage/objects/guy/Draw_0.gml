@@ -1,19 +1,24 @@
 
-if(cursor_obj.hoverNode != noone )
+if(cursor_obj.selectedPerson == id)
 {
-	tempNode = cursor_obj.hoverNode
-	if(tempNode.moveNode){
-		
-		current = tempNode
-	
-		while(current.parent != noone)
+	if(cursor_obj.hoverNode != noone)
+	{
+		tempNode = cursor_obj.hoverNode
+		if(tempNode.moveNode == true)
 		{
-			draw_line_width_color(current.x +16, current.y +16, current.parent.x +16, current.parent.y +16, 4,c_lime,c_lime)
 		
-			current = current.parent
-		}
+			current = tempNode
 	
-		if(tempNode.attackNode)
+			while(current.parent != noone)
+			{
+				draw_line_width_color(current.x +16, current.y +16, current.parent.x +16, current.parent.y +16, 4,c_lime,c_lime)
+		
+				current = current.parent
+			}
+	
+	
+		}
+				if(tempNode.attackNode == true)
 		{
 			switch(attack)
 			{
@@ -23,8 +28,10 @@ if(cursor_obj.hoverNode != noone )
 			break
 			
 			}
-		}
 	}
+
+		}
+	
 }
 
 

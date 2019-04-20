@@ -10,11 +10,11 @@ var neighbor
 var temp 
 var cost 
 
-ds_priority_add(list, start,start.G)
+ds_priority_add(list, start, start.G)
 
 while(ds_priority_size(list) > 0)
 {
-	current =	ds_priority_delete_min(list)
+	current = ds_priority_delete_min(list)
 	
 	ds_list_add(clist, current)
 	
@@ -22,7 +22,7 @@ while(ds_priority_size(list) > 0)
 	{
 		neighbor = ds_list_find_value(current.Neighbors, i)
 		//can put restrictions on the pathfinding here to move a person around the a wall or another person
-		if(ds_list_find_index(clist, neighbor)<0 && neighbor.cost + current.G <= range)
+		if(ds_list_find_index(clist, neighbor)<0 && neighbor.cost + current.G <= range && neighbor.passable && neighbor.occupant == noone)
 		{
 			if(ds_priority_find_priority(list,neighbor) == 0 || ds_priority_find_priority(list,neighbor) == undefined)
 			{

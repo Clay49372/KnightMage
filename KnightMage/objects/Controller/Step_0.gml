@@ -1,5 +1,6 @@
 switch(state)
 {
+
 	case "initiative":
 	temppr = ds_priority_create()
 	with(guy)
@@ -16,13 +17,13 @@ switch(state)
 	turnmax = ds_list_size(turn)
 	ds_priority_destroy(temppr)
 	
-	state = "ready"
+	state = "start"
 	break
 	
 	
 	
 	
-	case "ready":
+	case "start":
 	if(currentPerson == noone)
 	{
 		turncount +=1
@@ -45,12 +46,12 @@ switch(state)
 			case "ranged":
 				rangedattack(currentPerson)
 				break
-		
-			break
-		
+			
 		}
 		
 	}
+
+	
 	
 	
 }

@@ -1,4 +1,5 @@
 Neighbors = ds_list_create()
+passable = true
 
 color = c_white
 

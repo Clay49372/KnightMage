@@ -11,3 +11,4 @@ hp = 3
 maxhp = 3
 damagebonus = 1
 attack = "melee"
+defense = 2

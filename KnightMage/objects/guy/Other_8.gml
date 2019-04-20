@@ -7,7 +7,7 @@ if(actions > 0)
 	cursor_obj.selectedPerson = id
 	PathFinding(global.map[gridx,gridy], move, actions)
 	
-	if(act){
+	if(act == true){
 		switch(attack)
 		{
 			

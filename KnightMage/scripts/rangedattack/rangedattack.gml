@@ -9,12 +9,9 @@ with(guy)
 	{
 		if(point_distance(x + 16, y + 16, temp.x + 16, temp.y + 16) <= temp.AttackRange)
 		{
-			if(collision_line(x +16, y +16,temp.x +16,temp.y +16,guy,false,false))
-			{
+
 				global.map[gridx, gridy].attackNode = true
-				global.map[gridx, gridy].color = c_red
-			
-			}
+				global.map[gridx, gridy].color = c_red		
 		}
 	}
 	

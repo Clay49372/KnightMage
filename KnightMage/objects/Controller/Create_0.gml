@@ -1,6 +1,8 @@
 
 state = "initiative"
 
+draw_set_font(normal)
+
 randomise()
 
 turn = ds_list_create()
@@ -29,6 +31,8 @@ for(i = 0; i < mapWidth; i +=1)
 	for(ii=0; ii< mapHieght; ii+=1)
 	{
 		global.map[i,ii] = instance_create_layer( i *global.GridSize, ii *global.GridSize,"grid",GridNode)
+		map[i,ii].gridx = i
+		map[i,ii].gridy = ii
 	}
 }
 //assigning nieghbors
@@ -91,9 +95,9 @@ with(instance_create_layer(5 * global.GridSize, 5* global.GridSize,"Instances",g
 	name = "guy1"
 	global.map[gridx,gridy].occupant = id
 }
-with(instance_create_layer(20 * global.GridSize, 8* global.GridSize,"Instances",guy2))
+with(instance_create_layer(25 * global.GridSize, 8* global.GridSize,"Instances",guy2))
 {
-	gridx = 20
+	gridx = 25
 	gridy = 8
 	name = "guy2"
 	global.map[gridx,gridy].occupant = id
