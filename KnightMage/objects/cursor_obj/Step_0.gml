@@ -56,4 +56,31 @@ if(mouse_check_button(mb_right))
 		
 		selectedPerson = noone
 	}
+	
+	if(selectedPerson != noone && hoverNode.attackNode == true)
+	{
+		switch(selectedPerson.attack)
+		{
+			case "range":
+				selectedPerson.act = false
+				selectedPerson.actions -= 1
+				selectedPerson.target = hoverNode.occupant
+				selectedPerson.state = "begin attack"
+				selectedPerson.attacktime = 10
+				selectedPerson = noone
+				wipe_nodes()
+				break
+			
+			case "melee":
+				selectedPerson.act = false
+				selectedPerson.actions -= 1
+				selectedPerson.target = hoverNode.occupant
+				selectedPerson.state = "begin attack"
+				selectedPerson.attacktime = 10
+				selectedPerson = noone
+				wipe_nodes()
+				break
+		
+		}
+	}
 }

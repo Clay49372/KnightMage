@@ -6,6 +6,7 @@ bottom = 0
 
 vspeed = 3
 gravity = 1
-test = "error"
+text = "error"
 fade = false
 alpha = 1
+alarm_set(0,3* room_speed)

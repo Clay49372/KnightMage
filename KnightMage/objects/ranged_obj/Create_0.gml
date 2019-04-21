@@ -5,7 +5,6 @@ status = "miss"
 DamageDone = 0
 
 target = noone
-owner = noone
 
 movement = path_add()
 path_set_closed(movement,false)

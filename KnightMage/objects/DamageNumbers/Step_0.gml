@@ -10,9 +10,7 @@ if(y >= bottom)
 }
 if(fade == true)
 {
-	alpha -= 1
+	alpha -= .1
 }
-if(alpha <= 0)
-{
-	instance_destroy()
-}
+
+

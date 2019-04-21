@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "20bebaf5-e545-4ded-819f-c5ac3dc5cef3",
+            "Value": {
+                "id": "bdd92b27-2e26-4794-91e7-fe16914842e6",
+                "resourcePath": "objects\\MagicBall_obj\\MagicBall_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28912311-18cb-46d0-a750-e6d8e8473277",
             "Value": {
                 "id": "4fd6c45e-c64b-47d9-885b-8a04650dda88",
@@ -171,6 +179,14 @@
             "Value": {
                 "id": "e168e6e5-2bd1-4d45-8f60-9097787b3127",
                 "resourcePath": "sprites\\selected\\selected.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "711c317d-313b-4d2c-b8aa-10a638f406ae",
+            "Value": {
+                "id": "b7490bc8-66ae-4b62-bc7f-1a465ffca657",
+                "resourcePath": "sprites\\MagicBall\\MagicBall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -319,6 +335,14 @@
             }
         },
         {
+            "Key": "bcf27095-8050-4094-9948-aad95fd3fb96",
+            "Value": {
+                "id": "b4653d5f-059c-42ec-861e-11976d88e341",
+                "resourcePath": "scripts\\meleeAttack\\meleeAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c1b2292c-121d-45b0-8782-8597c65af45e",
             "Value": {
                 "id": "8bbea60a-5e20-4c5d-882f-2509ec2c6a58",
@@ -443,7 +467,8 @@
         "4a700a75-a634-45b1-b00b-8247090d7e17",
         "2c13b74e-3355-4c1e-a10b-feccfbd34e4b",
         "a6c3a243-331b-4f92-b222-ac9730f09827",
-        "b979d578-279a-4dfa-930e-ad61050af56b"
+        "b979d578-279a-4dfa-930e-ad61050af56b",
+        "bcf27095-8050-4094-9948-aad95fd3fb96"
     ],
     "tutorial": ""
 }

@@ -43,8 +43,12 @@ switch(state)
 		switch(currentPerson.attack)
 		{
 			
-			case "ranged":
+			case "range":
 				rangedattack(currentPerson)
+				break
+				
+			case "melee":
+				meleeAttack(currentPerson)
 				break
 			
 		}

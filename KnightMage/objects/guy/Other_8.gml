@@ -16,6 +16,7 @@ if(actions > 0)
 				break
 			
 			case "melee":
+				meleeAttack(id)
 				break
 		
 		}

@@ -11,8 +11,9 @@ move = 4
 target = noone
 attacktime = 0
 damagebonus = 1
+maxdamage = 6
 attack = "melee"
-damage = 1
+DamageDone = 1
 name = "none"
 defense = 2
 
@@ -25,7 +26,7 @@ gridy = 0
 
 //actions
 actions =2
-ableact = false
+act = false
 
 //pathfinding stuff
 path = path_add();
@@ -34,6 +35,8 @@ path_set_closed(path,false)
 
 
 moveSpeed = 8
+
+
 
 
 
