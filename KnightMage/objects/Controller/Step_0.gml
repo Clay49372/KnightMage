@@ -1,3 +1,10 @@
+
+if(!instance_exists(guy1)&&!instance_exists(guy2)&&!instance_exists(guy3)&&!instance_exists(guy4))
+{
+	
+}
+
+
 switch(state)
 {
 
