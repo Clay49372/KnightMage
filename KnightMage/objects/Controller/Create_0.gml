@@ -1,4 +1,5 @@
 
+audio_play_sound(Music_sound,1,1)
 state = "initiative"
 
 draw_set_font(normal)

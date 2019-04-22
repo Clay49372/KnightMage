@@ -42,7 +42,7 @@ switch(state)
 
 			
 			case "range":
-
+				audio_play_sound(magic_sound,1,0)
 				attackdirection = point_direction(x+16, y+16,target.x +16,target.y +16)
 			
 				beginx = x + 16 + lengthdir_x(30, attackdirection)
@@ -57,12 +57,14 @@ switch(state)
 					if(status != "miss")
 					{
 						path_add_point(movement, target.x + 16, target.y +16, 100)
+						audio_play_sound(Hurt_sound,1,0)
 					}
 					else
 					{
 						path_add_point(movement, target.x + random_range(30, 60)* choose(-1,1), target.y + random_range(30, 60)* choose(-1,1),100)
 					}
 					path_start(movement,speed,true,true)
+					
 				}
 				state = "end attack"
 				attacktime = 30
@@ -72,6 +74,7 @@ switch(state)
 			
 			
 			case "melee":
+				audio_play_sound(melee_sound,1,0)
 				if(attackStatus != "miss")
 				{
 					for(i = 0; i <6; i +=1)
@@ -88,11 +91,12 @@ switch(state)
 					//done damage
 					target.hp -= tempdamage
 					
+					
 					with(instance_create_layer(target.x + 28, target.y + 2,"cursor", DamageNumbers))
 					{
 						text = "-" + string(other.tempdamage)
 						bottom = y
-						
+						audio_play_sound(Hurt_sound,1,0)
 					}
 				}
 				else

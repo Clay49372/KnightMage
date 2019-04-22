@@ -13,3 +13,4 @@ damagebonus = 8
 attack = "range"
 AttackRange = 15 *global.GridSize
 defense = 15
+attacksound = magic_sound

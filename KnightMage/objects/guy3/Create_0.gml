@@ -13,3 +13,4 @@ maxhp = 20
 damagebonus = 1
 attack = "melee"
 defense = 16
+attacksound = melee_sound

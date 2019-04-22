@@ -13,3 +13,4 @@ damagebonus = 1
 attack = "melee"
 defense = 15
 move = 6
+attacksound = melee_sound

@@ -1,7 +1,11 @@
 
 if(!instance_exists(guy1)&&!instance_exists(guy2)&&!instance_exists(guy3)&&!instance_exists(guy4))
 {
-	
+	room_goto(4)
+}
+if(!instance_exists(bguy1)&&!instance_exists(bguy2)&&!instance_exists(bguy3)&&!instance_exists(bguy4))
+{
+	room_goto(3)
 }
 
 
