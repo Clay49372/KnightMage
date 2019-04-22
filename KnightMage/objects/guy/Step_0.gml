@@ -1,3 +1,10 @@
+
+if(hp <= 0)
+{
+	map[gridx,gridy].occupant = noone
+	instance_destroy()
+}
+
 switch(state)
 {
 	case "begin path":
@@ -78,6 +85,9 @@ switch(state)
 
 						}
 					}
+					//done damage
+					target.hp -= tempdamage
+					
 					with(instance_create_layer(target.x + 28, target.y + 2,"cursor", DamageNumbers))
 					{
 						text = "-" + string(other.tempdamage)
@@ -93,6 +103,10 @@ switch(state)
 						bottom = y
 					}
 				}
+				
+				state = "end attack"
+				
+				attacktime = 10
 				break
 			
 			
@@ -115,6 +129,5 @@ switch(state)
 			state = "idle"
 		}
 		break
-	
-	
+
 }

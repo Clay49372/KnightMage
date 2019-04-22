@@ -1,15 +1,15 @@
 event_inherited()
 name = "guy2"
 
-
+image_speed = 0
 team = global.blueteam
 class = "knight Mage"
-bonus = 4
+bonus = 10
 meleebonus = 1
 initiativeRoll = 0
-hp = 2
-maxhp = 3
-damagebonus = 1
+hp = 12
+maxhp = 12
+damagebonus = 6
 attack = "range"
 AttackRange = 20 *global.GridSize
-defense = 2
+defense = 12

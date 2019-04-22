@@ -23,7 +23,7 @@ gridx = 0
 gridy = 0
 
 
-
+image_speed = 0
 //actions
 actions =2
 act = false

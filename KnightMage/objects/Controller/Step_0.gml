@@ -34,23 +34,32 @@ switch(state)
 		}
 		
 		currentPerson = ds_list_find_value(turn, turncount)
-		currentPerson.actions = 2
-		currentPerson.act = true
 		
-		cursor_obj.selectedPerson = currentPerson
-		PathFinding(global.map[currentPerson.gridx,currentPerson.gridy],currentPerson.move, currentPerson.actions)
-		
-		switch(currentPerson.attack)
+		if(instance_exists(currentPerson))
 		{
 			
-			case "range":
-				rangedattack(currentPerson)
-				break
-				
-			case "melee":
-				meleeAttack(currentPerson)
-				break
+			currentPerson.actions = 2
+			currentPerson.act = true
+		
+			cursor_obj.selectedPerson = currentPerson
+			PathFinding(global.map[currentPerson.gridx,currentPerson.gridy],currentPerson.move, currentPerson.actions)
+		
+			switch(currentPerson.attack)
+			{
 			
+				case "range":
+					rangedattack(currentPerson)
+					break
+				
+				case "melee":
+					meleeAttack(currentPerson)
+					break
+			
+			}
+		}
+		else
+		{
+			currentPerson = noone	
 		}
 		
 	}

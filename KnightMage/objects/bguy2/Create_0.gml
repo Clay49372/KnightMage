@@ -3,12 +3,12 @@ name = "guy2"
 
 
 team = global.redteam
-class = "knight"
-bonus = 2
+class = "Heavy Knight"
+bonus = 6
 initiative = 0
 initiativeRoll = 0
-hp = 3
-maxhp = 3
+hp = 30
+maxhp = 30
 damagebonus = 1
 attack = "melee"
-defense = 2
+defense = 18
